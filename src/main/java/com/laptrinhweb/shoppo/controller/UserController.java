@@ -4,6 +4,7 @@ package com.laptrinhweb.shoppo.controller;
 import com.laptrinhweb.shoppo.common.RoleName;
 import com.laptrinhweb.shoppo.entity.Role;
 import com.laptrinhweb.shoppo.entity.User;
+import com.laptrinhweb.shoppo.exception.AppException;
 import com.laptrinhweb.shoppo.repositories.RoleRepository;
 import com.laptrinhweb.shoppo.service.UserService;
 import org.slf4j.Logger;
@@ -27,10 +28,7 @@ import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Base64;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 @Controller
 @RequestMapping("/customer")
@@ -155,9 +153,13 @@ public class UserController {
 				customer.setPassword(encryptedPassword);
 				customer.setCreateDate(new Date());
 				customer.setValid(true);
-				customer.setRoles(getGuessRole());
+//				customer.setRoles(getGuessRole());
 //				Role userRole = roleRepository.findByName(RoleName.ROLE_USER).get();
 //				customer.setRoles(userRole);
+				Role userRole = roleRepository.findByName(RoleName.ROLE_USER)
+						.orElseThrow(() -> new AppException("User Role not set."));
+
+				customer.setRoles(Collections.singleton(userRole));
 				User emailExists = customerService.findCustomerByEmail(email);
 				User phoneExists = customerService.findCustomerByPhone(phone);
 				if (emailExists != null) {
