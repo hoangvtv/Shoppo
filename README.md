@@ -4,7 +4,7 @@ Springboot, JSP
 ## Steps to Setup
 ## 1. Clone the repository
 
-git clone https://github.com/hoangvtv/EcommerceBackEnd.git
+git clone https://github.com/hoangvtv/Shoppo.git
 ## 2. Configure MySQL database
 
 Create a MySQL database named file_demo, and change the username and password in src/main/resources/application.properties as per your MySQL installation - 
