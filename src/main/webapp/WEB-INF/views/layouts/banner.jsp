@@ -1,4 +1,6 @@
 	<!-- banner -->
+	<%@ page language="java" contentType="text/html; charset=utf-8"
+			 pageEncoding="utf-8"%>
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		<!-- Indicators-->
 		<ol class="carousel-indicators">

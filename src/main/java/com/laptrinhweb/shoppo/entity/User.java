@@ -161,12 +161,12 @@ public class User implements UserDetails {
 
 	@Override
 	public String getUsername() {
-		return null;
+		return this.email;
 	}
 
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
-		return null;
+		return this.roles;
 	}
 
 	@Override

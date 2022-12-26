@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+		 pageEncoding="utf-8"%>
     <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
@@ -59,8 +59,8 @@
 							<i class="fas fa-map-marker-alt rounded-circle"></i>
 						</div>
 						<h4 class="font-weight-bold mt-sm-4 mt-3 mb-3">Address</h4>
-						<p style="font-weight: bold;color:black;">Sky-Shop
-							<label style="font-weight: bold;color:black;">Shop No.4 Building No.51/B Gokuldham Society , Lucknow, 400000</label>
+						<p style="font-weight: bold;color:black;">Shoppo
+							<label style="font-weight: bold;color:black;">97 Man Thiện, Q.9, TP.HCM</label>
 						</p>
 					</div>
 				</div>
@@ -70,9 +70,7 @@
 							<i class="fas fa-phone rounded-circle"></i>
 						</div>
 						<h4 class="font-weight-bold mt-sm-4 mt-3 mb-3">Call Us</h4>
-						<p style="font-weight: bold;color:black;"><a style="font-weight: bold;color:black;" href="tel:+91121122000">+(91) 100 101 000</a>
-						
-<!-- 							<label>+(91) 121 122 000</label> -->
+						<p style="font-weight: bold;color:black;"><a style="font-weight: bold;color:black;" href="tel:+84968774555">0968774555</a>
 						</p>
 					</div>
 				</div>
@@ -83,7 +81,7 @@
 						</div>
 						<h4 class="font-weight-bold mt-sm-4 mt-3 mb-3">Email</h4>
 						<p>
-							<a style="font-weight: bold;color:black;" href="mailto:javahub018@gmail.com">skycoding@gmail.com</a>
+							<a style="font-weight: bold;color:black;" href="mailto:n19dcat032@student.ptithcm.edu.vn">Shoppo@gmail.com</a>
 						</p>
 					</div>
 				</div>

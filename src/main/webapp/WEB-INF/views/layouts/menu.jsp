@@ -1,4 +1,6 @@
 <!-- header-bottom-->
+<%@ page language="java" contentType="text/html; charset=utf-8"
+		 pageEncoding="utf-8"%>
 	<div class="header-bot">
 		<div class="container">
 			<div class="row header-bot_inner_wthreeinfo_header_mid">

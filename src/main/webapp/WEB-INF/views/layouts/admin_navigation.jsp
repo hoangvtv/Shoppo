@@ -1,4 +1,6 @@
 	<!-- top-header -->
+	<%@ page language="java" contentType="text/html; charset=utf-8"
+			 pageEncoding="utf-8"%>
 	<div class="agile-main-top">
 		<div class="container-fluid">
 			<div class="row main-top-w3l">
