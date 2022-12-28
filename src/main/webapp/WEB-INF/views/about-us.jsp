@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-		 pageEncoding="utf-8"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
     <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
@@ -14,12 +14,12 @@
 		<jsp:include page="layouts/user-menu.jsp"></jsp:include>
 	</c:when>
 	<c:otherwise>
-		<jsp:include page="layouts/navigation-bar.jsp"></jsp:include>
-		<jsp:include page="layouts/menu.jsp"></jsp:include>
+<%--		<jsp:include page="layouts/navigation-bar.jsp"></jsp:include>--%>
+		<jsp:include page="layouts/navigate.jsp"></jsp:include>
 	</c:otherwise>
 </c:choose>
 	<!-- banner-2 -->
-	<div class="page-head_agile_info_w3l"></div>
+<%--	<div class="page-head_agile_info_w3l"></div>--%>
 	<!-- //banner-2 -->
 	<!-- page -->
 	<div class="services-breadcrumb">
@@ -74,6 +74,6 @@
 		</div>
 	</div>
 	<!-- //about -->
-	<jsp:include page="layouts/footer.jsp"></jsp:include>
+	<jsp:include page="layouts/footer1.jsp"></jsp:include>
 </body>
 </html>

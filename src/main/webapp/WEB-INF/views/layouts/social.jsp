@@ -1,5 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-		 pageEncoding="utf-8"%>
 <div class="social-links">
 	<ul>
 		<li><a href="https://www.facebook.com/lapputer/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
