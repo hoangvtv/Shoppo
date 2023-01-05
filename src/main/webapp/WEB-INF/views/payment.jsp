@@ -1,13 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-		 pageEncoding="utf-8"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <!DOCTYPE html>
 <html>
 <head>
-<%--<c:if test="${empty email}">--%>
-<%--	<c:redirect url="${pageContext.request.contextPath}/user/sign-in"/>  --%>
-<%--</c:if>--%>
+<c:if test="${empty email}">
+	<c:redirect url="${pageContext.request.contextPath}/user/sign-in"/>  
+</c:if>
 	<title>Sky-Shop | Checkout</title>
 	<jsp:include page="layouts/header.jsp"></jsp:include>
 </head>
